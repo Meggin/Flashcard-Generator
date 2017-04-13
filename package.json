@@ -1,0 +1,23 @@
+{
+  "name": "flashcard-generator",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Meggin/Flashcard-Generator.git"
+  },
+  "author": "Meggin Kearney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Meggin/Flashcard-Generator/issues"
+  },
+  "homepage": "https://github.com/Meggin/Flashcard-Generator#readme",
+  "dependencies": {
+    "firebase": "^3.7.6",
+    "inquirer": "^3.0.6"
+  }
+}

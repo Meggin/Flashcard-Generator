@@ -1,4 +1,4 @@
-// Co
+// Requires BasicCard constructor exported from BasicCard.js.
 var BasicCard = require("./BasicCard.js");
 
 // Constructor function for creating ClozeCard objects.
@@ -48,3 +48,6 @@ var missingNewCloze = ClozeCard("James Joyce wrote Ulysses", "James Joyce");
 console.log(missingNewCloze.fullText);
 console.log(missingNewCloze.cloze);
 console.log(missingNewCloze.partial());
+
+// Export ClozeCard constructor which gets used in main.js.
+module.exports = ClozeCard;
