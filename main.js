@@ -4,7 +4,7 @@ var ClozeCard = require("./ClozeCard.js");
 // Requires firebase module, so we can text storage in node.
 var firebase = require("firebase");
 
-// Initializez Firebase.
+// Initialize Firebase.
 var config = {
   apiKey: "AIzaSyCrpShruKHPvkRUqHhUbfNhsSWPCzqERKg",
   authDomain: "flashcard-generator-29f22.firebaseapp.com",
